@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D6E7216E8AEA51C29D97CE0 /* libPods-LMSoftCodeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C919C1037D82DCCAE534BACA /* libPods-LMSoftCodeDemo.a */; };
+		841C03CE1D34BD65001F7B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C03CD1D34BD65001F7B70 /* main.m */; };
+		841C03D11D34BD65001F7B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C03D01D34BD65001F7B70 /* AppDelegate.m */; };
+		841C03D41D34BD65001F7B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C03D31D34BD65001F7B70 /* ViewController.m */; };
+		841C03D71D34BD65001F7B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841C03D51D34BD65001F7B70 /* Main.storyboard */; };
+		841C03D91D34BD65001F7B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841C03D81D34BD65001F7B70 /* Assets.xcassets */; };
+		841C03DC1D34BD65001F7B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841C03DA1D34BD65001F7B70 /* LaunchScreen.storyboard */; };
+		841C03E71D34BD65001F7B70 /* LMSoftCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C03E61D34BD65001F7B70 /* LMSoftCodeDemoTests.m */; };
+		841C03F21D34BD65001F7B70 /* LMSoftCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C03F11D34BD65001F7B70 /* LMSoftCodeDemoUITests.m */; };
+		841C04131D34BD90001F7B70 /* CamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C04071D34BD90001F7B70 /* CamViewController.m */; };
+		841C04141D34BD90001F7B70 /* rtmpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C04091D34BD90001F7B70 /* rtmpManager.m */; };
+		841C04161D34BD90001F7B70 /* x264Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C04101D34BD90001F7B70 /* x264Manager.m */; };
+		841C04181D34BE1C001F7B70 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C04171D34BE1C001F7B70 /* libz.tbd */; };
+		841C041A1D34BE21001F7B70 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C04191D34BE21001F7B70 /* libiconv.tbd */; };
+		841C041D1D34BE27001F7B70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C041B1D34BE27001F7B70 /* AVFoundation.framework */; };
+		841C041E1D34BE27001F7B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C041C1D34BE27001F7B70 /* Foundation.framework */; };
+		841C04201D34BE98001F7B70 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C041F1D34BE98001F7B70 /* CoreMedia.framework */; };
+		841C04221D34BEA0001F7B70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C04211D34BEA0001F7B70 /* UIKit.framework */; };
+		841C04241D34BEA5001F7B70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C04231D34BEA5001F7B70 /* CoreGraphics.framework */; };
+		841C042A1D34C01F001F7B70 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C04291D34C01F001F7B70 /* libx264.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841C03E31D34BD65001F7B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841C03C11D34BD65001F7B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841C03C81D34BD65001F7B70;
+			remoteInfo = LMSoftCodeDemo;
+		};
+		841C03EE1D34BD65001F7B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841C03C11D34BD65001F7B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841C03C81D34BD65001F7B70;
+			remoteInfo = LMSoftCodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841C03C91D34BD65001F7B70 /* LMSoftCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMSoftCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841C03CD1D34BD65001F7B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841C03CF1D34BD65001F7B70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841C03D01D34BD65001F7B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841C03D21D34BD65001F7B70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841C03D31D34BD65001F7B70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841C03D61D34BD65001F7B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841C03D81D34BD65001F7B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841C03DB1D34BD65001F7B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841C03DD1D34BD65001F7B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841C03E21D34BD65001F7B70 /* LMSoftCodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMSoftCodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841C03E61D34BD65001F7B70 /* LMSoftCodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSoftCodeDemoTests.m; sourceTree = "<group>"; };
+		841C03E81D34BD65001F7B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841C03ED1D34BD65001F7B70 /* LMSoftCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMSoftCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841C03F11D34BD65001F7B70 /* LMSoftCodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSoftCodeDemoUITests.m; sourceTree = "<group>"; };
+		841C03F31D34BD65001F7B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841C04061D34BD90001F7B70 /* CamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamViewController.h; sourceTree = "<group>"; };
+		841C04071D34BD90001F7B70 /* CamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamViewController.m; sourceTree = "<group>"; };
+		841C04081D34BD90001F7B70 /* rtmpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmpManager.h; sourceTree = "<group>"; };
+		841C04091D34BD90001F7B70 /* rtmpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rtmpManager.m; sourceTree = "<group>"; };
+		841C040F1D34BD90001F7B70 /* x264Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264Manager.h; sourceTree = "<group>"; };
+		841C04101D34BD90001F7B70 /* x264Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x264Manager.m; sourceTree = "<group>"; };
+		841C04171D34BE1C001F7B70 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		841C04191D34BE21001F7B70 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		841C041B1D34BE27001F7B70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		841C041C1D34BE27001F7B70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		841C041F1D34BE98001F7B70 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		841C04211D34BEA0001F7B70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		841C04231D34BEA5001F7B70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		841C04261D34C01F001F7B70 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
+		841C04271D34C01F001F7B70 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
+		841C04291D34C01F001F7B70 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		C919C1037D82DCCAE534BACA /* libPods-LMSoftCodeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMSoftCodeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D611E36FFB418500E7EFA333 /* Pods-LMSoftCodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMSoftCodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMSoftCodeDemo/Pods-LMSoftCodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB9CEF4CE0C4DE15D5BD8B0 /* Pods-LMSoftCodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMSoftCodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMSoftCodeDemo/Pods-LMSoftCodeDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841C03C61D34BD65001F7B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C04241D34BEA5001F7B70 /* CoreGraphics.framework in Frameworks */,
+				841C04221D34BEA0001F7B70 /* UIKit.framework in Frameworks */,
+				841C04201D34BE98001F7B70 /* CoreMedia.framework in Frameworks */,
+				841C041D1D34BE27001F7B70 /* AVFoundation.framework in Frameworks */,
+				841C041E1D34BE27001F7B70 /* Foundation.framework in Frameworks */,
+				841C041A1D34BE21001F7B70 /* libiconv.tbd in Frameworks */,
+				841C04181D34BE1C001F7B70 /* libz.tbd in Frameworks */,
+				841C042A1D34C01F001F7B70 /* libx264.a in Frameworks */,
+				5D6E7216E8AEA51C29D97CE0 /* libPods-LMSoftCodeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841C03DF1D34BD65001F7B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841C03EA1D34BD65001F7B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1388299F080D38A9207D7517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841C04231D34BEA5001F7B70 /* CoreGraphics.framework */,
+				841C04211D34BEA0001F7B70 /* UIKit.framework */,
+				841C041F1D34BE98001F7B70 /* CoreMedia.framework */,
+				841C041B1D34BE27001F7B70 /* AVFoundation.framework */,
+				841C041C1D34BE27001F7B70 /* Foundation.framework */,
+				841C04191D34BE21001F7B70 /* libiconv.tbd */,
+				841C04171D34BE1C001F7B70 /* libz.tbd */,
+				C919C1037D82DCCAE534BACA /* libPods-LMSoftCodeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841C03C01D34BD65001F7B70 = {
+			isa = PBXGroup;
+			children = (
+				841C03CB1D34BD65001F7B70 /* LMSoftCodeDemo */,
+				841C03E51D34BD65001F7B70 /* LMSoftCodeDemoTests */,
+				841C03F01D34BD65001F7B70 /* LMSoftCodeDemoUITests */,
+				841C03CA1D34BD65001F7B70 /* Products */,
+				F00CD86184950F4E999CBB74 /* Pods */,
+				1388299F080D38A9207D7517 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841C03CA1D34BD65001F7B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841C03C91D34BD65001F7B70 /* LMSoftCodeDemo.app */,
+				841C03E21D34BD65001F7B70 /* LMSoftCodeDemoTests.xctest */,
+				841C03ED1D34BD65001F7B70 /* LMSoftCodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841C03CB1D34BD65001F7B70 /* LMSoftCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				841C040A1D34BD90001F7B70 /* x264 */,
+				841C04061D34BD90001F7B70 /* CamViewController.h */,
+				841C04071D34BD90001F7B70 /* CamViewController.m */,
+				841C04081D34BD90001F7B70 /* rtmpManager.h */,
+				841C04091D34BD90001F7B70 /* rtmpManager.m */,
+				841C040F1D34BD90001F7B70 /* x264Manager.h */,
+				841C04101D34BD90001F7B70 /* x264Manager.m */,
+				841C03CF1D34BD65001F7B70 /* AppDelegate.h */,
+				841C03D01D34BD65001F7B70 /* AppDelegate.m */,
+				841C03D21D34BD65001F7B70 /* ViewController.h */,
+				841C03D31D34BD65001F7B70 /* ViewController.m */,
+				841C03D51D34BD65001F7B70 /* Main.storyboard */,
+				841C03D81D34BD65001F7B70 /* Assets.xcassets */,
+				841C03DA1D34BD65001F7B70 /* LaunchScreen.storyboard */,
+				841C03DD1D34BD65001F7B70 /* Info.plist */,
+				841C03CC1D34BD65001F7B70 /* Supporting Files */,
+			);
+			path = LMSoftCodeDemo;
+			sourceTree = "<group>";
+		};
+		841C03CC1D34BD65001F7B70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841C03CD1D34BD65001F7B70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841C03E51D34BD65001F7B70 /* LMSoftCodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				841C03E61D34BD65001F7B70 /* LMSoftCodeDemoTests.m */,
+				841C03E81D34BD65001F7B70 /* Info.plist */,
+			);
+			path = LMSoftCodeDemoTests;
+			sourceTree = "<group>";
+		};
+		841C03F01D34BD65001F7B70 /* LMSoftCodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841C03F11D34BD65001F7B70 /* LMSoftCodeDemoUITests.m */,
+				841C03F31D34BD65001F7B70 /* Info.plist */,
+			);
+			path = LMSoftCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+		841C040A1D34BD90001F7B70 /* x264 */ = {
+			isa = PBXGroup;
+			children = (
+				841C04251D34C01F001F7B70 /* include */,
+				841C04281D34C01F001F7B70 /* lib */,
+			);
+			path = x264;
+			sourceTree = "<group>";
+		};
+		841C04251D34C01F001F7B70 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				841C04261D34C01F001F7B70 /* x264.h */,
+				841C04271D34C01F001F7B70 /* x264_config.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		841C04281D34C01F001F7B70 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				841C04291D34C01F001F7B70 /* libx264.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F00CD86184950F4E999CBB74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D611E36FFB418500E7EFA333 /* Pods-LMSoftCodeDemo.debug.xcconfig */,
+				DDB9CEF4CE0C4DE15D5BD8B0 /* Pods-LMSoftCodeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841C03C81D34BD65001F7B70 /* LMSoftCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841C03F61D34BD65001F7B70 /* Build configuration list for PBXNativeTarget "LMSoftCodeDemo" */;
+			buildPhases = (
+				A76FD64D315B61BBBF9BE0B1 /* 📦 Check Pods Manifest.lock */,
+				841C03C51D34BD65001F7B70 /* Sources */,
+				841C03C61D34BD65001F7B70 /* Frameworks */,
+				841C03C71D34BD65001F7B70 /* Resources */,
+				EDD3A1421DA8AB136BB578DE /* 📦 Embed Pods Frameworks */,
+				FE4B445EABB8033C3C33E3AE /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMSoftCodeDemo;
+			productName = LMSoftCodeDemo;
+			productReference = 841C03C91D34BD65001F7B70 /* LMSoftCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841C03E11D34BD65001F7B70 /* LMSoftCodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841C03F91D34BD65001F7B70 /* Build configuration list for PBXNativeTarget "LMSoftCodeDemoTests" */;
+			buildPhases = (
+				841C03DE1D34BD65001F7B70 /* Sources */,
+				841C03DF1D34BD65001F7B70 /* Frameworks */,
+				841C03E01D34BD65001F7B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841C03E41D34BD65001F7B70 /* PBXTargetDependency */,
+			);
+			name = LMSoftCodeDemoTests;
+			productName = LMSoftCodeDemoTests;
+			productReference = 841C03E21D34BD65001F7B70 /* LMSoftCodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841C03EC1D34BD65001F7B70 /* LMSoftCodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841C03FC1D34BD65001F7B70 /* Build configuration list for PBXNativeTarget "LMSoftCodeDemoUITests" */;
+			buildPhases = (
+				841C03E91D34BD65001F7B70 /* Sources */,
+				841C03EA1D34BD65001F7B70 /* Frameworks */,
+				841C03EB1D34BD65001F7B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841C03EF1D34BD65001F7B70 /* PBXTargetDependency */,
+			);
+			name = LMSoftCodeDemoUITests;
+			productName = LMSoftCodeDemoUITests;
+			productReference = 841C03ED1D34BD65001F7B70 /* LMSoftCodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841C03C11D34BD65001F7B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					841C03C81D34BD65001F7B70 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					841C03E11D34BD65001F7B70 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 841C03C81D34BD65001F7B70;
+					};
+					841C03EC1D34BD65001F7B70 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 841C03C81D34BD65001F7B70;
+					};
+				};
+			};
+			buildConfigurationList = 841C03C41D34BD65001F7B70 /* Build configuration list for PBXProject "LMSoftCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841C03C01D34BD65001F7B70;
+			productRefGroup = 841C03CA1D34BD65001F7B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841C03C81D34BD65001F7B70 /* LMSoftCodeDemo */,
+				841C03E11D34BD65001F7B70 /* LMSoftCodeDemoTests */,
+				841C03EC1D34BD65001F7B70 /* LMSoftCodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841C03C71D34BD65001F7B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C03DC1D34BD65001F7B70 /* LaunchScreen.storyboard in Resources */,
+				841C03D91D34BD65001F7B70 /* Assets.xcassets in Resources */,
+				841C03D71D34BD65001F7B70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841C03E01D34BD65001F7B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841C03EB1D34BD65001F7B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A76FD64D315B61BBBF9BE0B1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD3A1421DA8AB136BB578DE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMSoftCodeDemo/Pods-LMSoftCodeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4B445EABB8033C3C33E3AE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMSoftCodeDemo/Pods-LMSoftCodeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841C03C51D34BD65001F7B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C04141D34BD90001F7B70 /* rtmpManager.m in Sources */,
+				841C04131D34BD90001F7B70 /* CamViewController.m in Sources */,
+				841C03D41D34BD65001F7B70 /* ViewController.m in Sources */,
+				841C04161D34BD90001F7B70 /* x264Manager.m in Sources */,
+				841C03D11D34BD65001F7B70 /* AppDelegate.m in Sources */,
+				841C03CE1D34BD65001F7B70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841C03DE1D34BD65001F7B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C03E71D34BD65001F7B70 /* LMSoftCodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841C03E91D34BD65001F7B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C03F21D34BD65001F7B70 /* LMSoftCodeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841C03E41D34BD65001F7B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841C03C81D34BD65001F7B70 /* LMSoftCodeDemo */;
+			targetProxy = 841C03E31D34BD65001F7B70 /* PBXContainerItemProxy */;
+		};
+		841C03EF1D34BD65001F7B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841C03C81D34BD65001F7B70 /* LMSoftCodeDemo */;
+			targetProxy = 841C03EE1D34BD65001F7B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841C03D51D34BD65001F7B70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841C03D61D34BD65001F7B70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841C03DA1D34BD65001F7B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841C03DB1D34BD65001F7B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841C03F41D34BD65001F7B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841C03F51D34BD65001F7B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841C03F71D34BD65001F7B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D611E36FFB418500E7EFA333 /* Pods-LMSoftCodeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LMSoftCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/aac",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/x264",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/x264/lib",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/aac/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFLiveKit.LMSoftCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		841C03F81D34BD65001F7B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB9CEF4CE0C4DE15D5BD8B0 /* Pods-LMSoftCodeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LMSoftCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/aac",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/x264",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/x264/lib",
+					"$(PROJECT_DIR)/LMSoftCodeDemo/aac/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFLiveKit.LMSoftCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		841C03FA1D34BD65001F7B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMSoftCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFLiveKit.LMSoftCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMSoftCodeDemo.app/LMSoftCodeDemo";
+			};
+			name = Debug;
+		};
+		841C03FB1D34BD65001F7B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMSoftCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFLiveKit.LMSoftCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMSoftCodeDemo.app/LMSoftCodeDemo";
+			};
+			name = Release;
+		};
+		841C03FD1D34BD65001F7B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMSoftCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFLiveKit.LMSoftCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMSoftCodeDemo;
+			};
+			name = Debug;
+		};
+		841C03FE1D34BD65001F7B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMSoftCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFLiveKit.LMSoftCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMSoftCodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841C03C41D34BD65001F7B70 /* Build configuration list for PBXProject "LMSoftCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841C03F41D34BD65001F7B70 /* Debug */,
+				841C03F51D34BD65001F7B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841C03F61D34BD65001F7B70 /* Build configuration list for PBXNativeTarget "LMSoftCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841C03F71D34BD65001F7B70 /* Debug */,
+				841C03F81D34BD65001F7B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841C03F91D34BD65001F7B70 /* Build configuration list for PBXNativeTarget "LMSoftCodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841C03FA1D34BD65001F7B70 /* Debug */,
+				841C03FB1D34BD65001F7B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841C03FC1D34BD65001F7B70 /* Build configuration list for PBXNativeTarget "LMSoftCodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841C03FD1D34BD65001F7B70 /* Debug */,
+				841C03FE1D34BD65001F7B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841C03C11D34BD65001F7B70 /* Project object */;
+}
